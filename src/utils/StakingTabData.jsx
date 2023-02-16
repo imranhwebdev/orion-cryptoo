@@ -1,0 +1,178 @@
+import CtProjectLogo1 from "../assets/img/Networks/ct_project_logo1.png";
+import MonthTableMinusSing from "../assets/img/ac_table_minus.svg";
+export const StakingTabinfo1 = [
+    {
+      ctProjectLogo: CtProjectLogo1,
+      ProjectName: "Project Name Monthly",
+      Allocation: "Your allocation",
+      AllocationPoint: 0,
+      DateTitle: "Claim start date",
+      Date: "2022-Nov-18 15:00 UTC",
+      ButtonText: "Claim",
+    },
+    {
+      ctProjectLogo: CtProjectLogo1,
+      ProjectName: "Project Name Monthly",
+      Allocation: "Your allocation",
+      AllocationPoint: 0,
+      DateTitle: "Claim start date",
+      Date: "2022-Nov-18 15:00 UTC",
+      ButtonText: "Claim",
+    },
+    {
+      ctProjectLogo: CtProjectLogo1,
+      ProjectName: "Project Name",
+      Allocation: "Your allocation",
+      AllocationPoint: 0,
+      DateTitle: "Claim start date",
+      Date: "2022-Nov-18 15:00 UTC",
+      ButtonText: "Claim",
+    },
+    {
+      ctProjectLogo: CtProjectLogo1,
+      ProjectName: "Project Name",
+      Allocation: "Your allocation",
+      AllocationPoint: 0,
+      DateTitle: "Claim start date",
+      Date: "2022-Nov-18 15:00 UTC",
+      ButtonText: "Claim",
+    },
+    {
+      ctProjectLogo: CtProjectLogo1,
+      ProjectName: "Project Name",
+      Allocation: "Your allocation",
+      AllocationPoint: 0,
+      DateTitle: "Claim start date",
+      Date: "2022-Nov-18 15:00 UTC",
+      ButtonText: "Claim",
+    },
+    {
+      ctProjectLogo: CtProjectLogo1,
+      ProjectName: "Project Name",
+      Allocation: "Your allocation",
+      AllocationPoint: 0,
+      DateTitle: "Claim start date",
+      Date: "2022-Nov-18 15:00 UTC",
+      ButtonText: "Claim",
+    },
+];
+
+export const StakingTabinfo2 = [
+    {
+      ctProjectLogo: CtProjectLogo1,
+      ProjectName: "Project Name Weekly",
+      Allocation: "Your allocation",
+      AllocationPoint: 2,
+      DateTitle: "Claim start date",
+      Date: "2022-Nov-18 15:00 UTC",
+      ButtonText: "Claim",
+    },
+    {
+      ctProjectLogo: CtProjectLogo1,
+      ProjectName: "Project Name",
+      Allocation: "Your allocation",
+      AllocationPoint: 2,
+      DateTitle: "Claim start date",
+      Date: "2022-Nov-18 15:00 UTC",
+      ButtonText: "Claim",
+    },
+    {
+      ctProjectLogo: CtProjectLogo1,
+      ProjectName: "Project Name",
+      Allocation: "Your allocation",
+      AllocationPoint: 2,
+      DateTitle: "Claim start date",
+      Date: "2022-Nov-18 15:00 UTC",
+      ButtonText: "Claim",
+    },
+    {
+      ctProjectLogo: CtProjectLogo1,
+      ProjectName: "Project Name",
+      Allocation: "Your allocation",
+      AllocationPoint: 2,
+      DateTitle: "Claim start date",
+      Date: "2022-Nov-18 15:00 UTC",
+      ButtonText: "Claim",
+    },
+    {
+      ctProjectLogo: CtProjectLogo1,
+      ProjectName: "Project Name",
+      Allocation: "Your allocation",
+      AllocationPoint: 2,
+      DateTitle: "Claim start date",
+      Date: "2022-Nov-18 15:00 UTC",
+      ButtonText: "Claim",
+    },
+    {
+      ctProjectLogo: CtProjectLogo1,
+      ProjectName: "Project Name",
+      Allocation: "Your allocation",
+      AllocationPoint: 2,
+      DateTitle: "Claim start date",
+      Date: "2022-Nov-18 15:00 UTC",
+      ButtonText: "Claim",
+    },
+];
+
+export const MonthTableData = [
+  {
+    VestingNumber: "01",
+    VestingPersent: "20",
+    Amount: 0.0000,
+    StartDate: "2022-jul-22 12:30 UTC",
+    minus: MonthTableMinusSing,
+  },
+  {
+    VestingNumber: "02",
+    VestingPersent: "20",
+    Amount: 0.0000,
+    StartDate: "2022-jul-22 12:30 UTC",
+    minus: MonthTableMinusSing,
+  },
+  {
+    VestingNumber: "03",
+    VestingPersent: "20",
+    Amount: 0.0000,
+    StartDate: "2022-jul-22 12:30 UTC",
+    minus: MonthTableMinusSing,
+  },
+  {
+    VestingNumber: "04",
+    VestingPersent: "20",
+    Amount: 0.0000,
+    StartDate: "2022-jul-22 12:30 UTC",
+    minus: MonthTableMinusSing,
+  },
+];
+
+
+export const WeeklyTableData = [
+  {
+    VestingNumber: "01",
+    VestingPersent: "20",
+    Amount: 0.0000,
+    StartDate: "2022-jul-22 12:30 UTC",
+    minus: MonthTableMinusSing,
+  },
+  {
+    VestingNumber: "02",
+    VestingPersent: "20",
+    Amount: 0.0000,
+    StartDate: "2022-jul-22 12:30 UTC",
+    minus: MonthTableMinusSing,
+  },
+  {
+    VestingNumber: "03",
+    VestingPersent: "20",
+    Amount: 0.0000,
+    StartDate: "2022-jul-22 12:30 UTC",
+    minus: MonthTableMinusSing,
+  },
+  {
+    VestingNumber: "04",
+    VestingPersent: "20",
+    Amount: 0.0000,
+    StartDate: "2022-jul-22 12:30 UTC",
+    minus: MonthTableMinusSing,
+  },
+];

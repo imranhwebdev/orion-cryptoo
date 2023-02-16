@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/x-icon" href="./favicon.svg">
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Urbanist:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Orion Crypto</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="../src/assets/js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      var section = $('li');
+        function toggleAccordion() {
+          section.removeClass('active');
+          $(this).addClass('active');
+        }
+      section.on('click', toggleAccordion);
+      $(document).ready(function(){
+    // link action
+    $(".action").click(function(e){
+        e.preventDefault();
+
+        $(".slide").removeClass("active");
+        var slide = $(this).closest(".slide");
+        slide.addClass("active");
+    });
+
+});
+
+// checkWidth
+checkWidth = function(){
+    var windowsize = $(window).width();
+    if (windowsize > 480) {
+        var slideWidth = $('.active').width();
+        $('.slide-content').css({
+            "width" : slideWidth+"px"
+        });
+    }
+    
+}
+
+$(window).resize(function() {
+    // onresize
+    checkWidth();
+
+    // finish resize
+    clearTimeout(window.resizedFinished);
+    window.resizedFinished = setTimeout( checkWidth , 500);
+});
+
+
+    </script>
+  </body>
+</html>
